@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Endless Boss Battle';
+    src: url('../font/endless_boss_battle-webfont.woff2') format('woff2'),
+         url('../font/endless_boss_battle-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { box-sizing: border-box; }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';  
+    outline: none;
+    border: none; 
+}
+
+#item {
+    padding-bottom: 6vh;
+    list-style-type: none;
+}
+
+img {
+    height: 3vh;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    margin-left: 7vh;
+    margin-top: 7vh;
+}
+
+.divider {
+    height: 0.4vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0.3vh;
+    margin-right: 0.3vh;
+}
+
+#landing {
+    background: hsla(186, 100%, 69%, 1);
+
+    background: linear-gradient(270deg, hsla(186, 100%, 69%, 1) 0%, hsla(193, 100%, 50%, 1) 100%, hsla(194, 87%, 57%, 1) 100%, hsla(196, 86%, 78%, 1) 100%, hsla(0, 0%, 100%, 1) 100%);
+    
+    background: -moz-linear-gradient(270deg, hsla(186, 100%, 69%, 1) 0%, hsla(193, 100%, 50%, 1) 100%, hsla(194, 87%, 57%, 1) 100%, hsla(196, 86%, 78%, 1) 100%, hsla(0, 0%, 100%, 1) 100%);
+    
+    background: -webkit-linear-gradient(270deg, hsla(186, 100%, 69%, 1) 0%, hsla(193, 100%, 50%, 1) 100%, hsla(194, 87%, 57%, 1) 100%, hsla(196, 86%, 78%, 1) 100%, hsla(0, 0%, 100%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#60efff", endColorstr="#00c8ff", GradientType=1 );
+}
+
+#hotel{
+    position: absolute;
+    z-index: 0;
+    height: 90vh;
+    bottom: 0px;
+    right: 25vh;
+}
+
+#nuvens {
+    position: absolute;
+    z-index: 1;
+    height: 60vh;
+    bottom: 0vh;
+    right: 0vh;
+}
+
+#degrade {
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 40vh;
+    background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) repeat scroll 0 0;   
+}
+
+#noticias {
+    background-color: white
+}
+
+#logo {
+    position: absolute;
+    z-index: 3;
+    height: 20vh;
+    left: 24.5vh;
+    top: 6vh;
+}
+
+#forms {
+    position: absolute;
+    z-index: 4;
+    left: 25vh;
+    top: 40vh;
+}
+
+#textfield {
+    font-size: 2vh;
+    border-radius: 10px;
+    width: 40vh;
+    height: 5vh;
+}
+
+#button {
+    padding-top: 0.5vh;
+    font-family: 'Endless Boss Battle';
+    border-radius: 30px;
+    font-size: 2vh;
+    color: white;
+    height: 3vh;
+    width: 7vh;
+    background-color: #0F7DBC;
+}
+
+input {
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#login {
+    list-style-type: none;
+    margin-bottom: 1vh;
+}
+
+#submit {
+    list-style-type: none;
+    margin-top: 2vh;
+}
+
+#social {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4.5vh;
+    padding-right: 4.5vh;
+    background-color: white;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+#facebook {
+    padding-top: 7px;
+    padding-bottom: 13px;
+    padding-left: 4.5vh;
+    padding-right: 4.5vh;
+    background-color: #039BE5;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+#calling {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    font-weight: bold;
+    left: 25vh;
+    top: 29vh;
+    font-size: 2.5vh;
+}
+
+#logon {
+    right: 10vh;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Endless Boss Battle';
+    background-color: #19D774;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    box-shadow: 0px 0px 50px white;
+    height: 12vh;
+    width: 32vh;
+    align-content: center;
+    top: 6vh;
+}
+
+#logon h1 {
+    padding: 3.5vh 0vh 1.5vh 5vh;
+    font-family: 'Endless Boss Battle';
+    color: white;
+    align-content: center;
+    font-size: 6vh;
+}
+
+.avatar {
+    position: absolute;
+    bottom: 0px;
+    right: 25vh;
+    height: 95vh;
+}
+
+#nomeperfil {
+    font-family: 'Endless Boss Battle';
+    color: white;
+    text-align: right;
+    position: absolute;
+    bottom: 60vh;
+    font-size: 12vh;
+    right: 80vh;
+}
+
+#badges {
+    position: absolute;
+    bottom: 54vh;
+    right: 80vh;
+    align-content: middle;
+}
+
+.iconbadge {
+    height: 6vh;
+    padding-right: 1vh;
+}
+
+#seguir {
+    position: absolute;
+    bottom: 53.5vh;
+    right: 103vh;
+    padding: 2vh 1vh 1vh 1vh;
+    background-color: #19D774;
+    text-align: center;
+    border-radius: 1vh;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.4vh;
+    width: fit-content;
+}
+
+#seguir p {
+    font-family: 'Endless Boss Battle';
+    color: white;
+    font-size: 4vh;
+}
+
+#boxquartos {
+    position: absolute;
+    bottom: 5vh;
+    background-color: white;
+    padding: 5vh 5vh 5vh 5vh;
+    border-radius: 2vh;
+    right: 80vh;
+    float: left;
+}
+
+#listaquartos {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    list-style-type: none
+}
+
+#quarto img {
+    height: 15vh;
+    padding-right: 2px;
+}
+
+#desde {
+    font-weight: lighter;
+    color: white;
+    position: absolute;
+    right: 81vh;
+    bottom: 50vh;
+    font-size: 2vh;
+}
+
+#riqueza {
+    position: absolute;
+    height: 75vh;
+    bottom: 12vh;
+    right: 10vh;
+}
+
+#callingloja {
+    position: absolute;
+    font-family: 'Endless Boss Battle';
+    color: white;
+    font-size: 12vh;
+    bottom: 55vh;
+    right: 100vh;
+    z-index: 1;
+}
+
+#subloja {
+    position: absolute;
+    color: white;
+    font-size: 4vh;
+    bottom: 43vh;
+    right: 117.5vh;
+    z-index: 1;
+}
+
+#textoloja {
+    position: absolute;
+    bottom: 0px;
+}
+
+#menuhorizontal {
+    position: absolute;
+    top: 7vh;
+    left: 29vh;
+    float: left;
+    width: fit-content;
+    display: flex;
+}
+
+#menuhorizontal p {
+    padding-right: 18vh;
+    padding-left: .5vh;
+    font-size: 2vh;
+    color: white;
+}
+
+#select {
+    position: absolute;
+    height: .5vh;
+    width: 10vh;
+    background-color: white;
+    border-radius: 10vh;
+    top: 3vh;
+}
+
+#menucompras {
+    position: absolute;
+    float: left;
+    width: fit-content;
+    display: flex;
+    top: 70vh;
+    left: 28.5vh;
+    z-index: 1;
+}
+
+.itemloja {
+    margin-right: 2vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2vh 8vh 2vh 8vh;
+    border-radius: 1vh;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: solid white .1vh;
+}
+
+.itemloja img {
+    height: 15vh;
+    opacity: 50%;
+}
+
+.itemloja:hover {
+    background-color: white;
+}
+
+.itemloja:hover img {
+    opacity: 100%;
+}
+
+#menucompraslegenda {
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    display: flex;
+    top: 90vh;
+    left: 37vh;
+    float: left;
+}
+
+#menucompraslegenda p {
+    margin-right: 19vh;
+}
+
+.fp-table {
+    justify-content: normal;
+}
+
+#legendabig {
+    font-family: 'Endless Boss Battle';
+    color: white;
+    font-size: 12vh;
+    top: 5vh;
+    left: 18vh;
+}
+
+#legendamini {
+    color: white;
+    font-size: 2vh;
+    top: 35vh;
+    left: 18vh;
+}
+
+#legendabig, #legendamini {
+    position: absolute;
+    z-index: 1;
+
+}
+
+#articleesquerda {
+    z-index: 999;
+    position: absolute;
+    top: 61vh;
+    left: 18vh;
+    float: left;
+}
+
+#caixalaranja {
+    background-color: orange;
+    padding: 8vh 12vh 8vh 12vh;
+}
+
+#legendacaixa p {
+    padding-top: 1vh;
+    font-size: 1.2vh;
+    color: black;
+}
+
+#legendacaixa h5 {
+    font-size: 2vh;
+    color: black;
+}
+
+#legendacaixa {
+    padding-left: 1.5vh;
+    width: 30%;
+}
+
+.noticiabloco {
+    display: flex;
+    margin-top: 1.5vh;
+}
+
+#articlemeio {
+    z-index: 999;
+    position: absolute;
+    top: 61vh;
+    left: 80vh
+}
+
+#articledireita {
+    z-index: 999;
+    position: absolute;
+    top: 61vh;
+    left: 140vh
+}
+
+#contadormoeda {
+    color: white;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 7vh;
+    right: 7vh;
+}
+
+#contadormoeda p {
+    padding-right: 2vh;
+    font-size: 2vh;
+}
+
+#contadormoeda h5 {
+    font-family: 'Endless Boss Battle';
+    font-size: 3vh;
+}
